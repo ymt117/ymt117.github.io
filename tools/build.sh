@@ -54,7 +54,7 @@ _build() {
   bash _scripts/sh/create_pages.sh
   bash _scripts/sh/dump_lastmod.sh
 
-  CMD+=" -d ${DEST}"
+  CMD+=" -d ${DEST} "
   echo "\$ $CMD"
   eval $CMD
   echo -e "\nBuild success, the site files have been placed in '${DEST}'."
