@@ -65,7 +65,7 @@ title: About
 |IPSJ情報処理学会　第81回全国大会|
 |SPAJAM2019 福岡予選|
 |セキュリティ・キャンプ全国大会 2019 Dトラック チューター|
-|ARLISS 2019 (Team:100kinSAT)|
+|[ARLISS 2019 (Team:100kinSAT)](http://unisec.jp/history/arliss2019/pdf/100kinSAT.pdf)|
 |SecHack365 Returns 2019|
 |SECCON 2019 Online CTF (Team:segod0n)|
 |CODE BLUE 2019 学生スタッフ|
