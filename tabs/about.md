@@ -9,17 +9,16 @@ title: About
 |:---|:---|
 |HN|やまと|
 |学歴|さつまいも大学(修士 工学)|
-|所属|社会人1年目|
+|所属|社会人2年目|
 
 
 # Skills
 ---
 
-|:---|:---|
-|C|★★★★☆|
-|C++|★★★☆☆|
-|Python|★★★★☆|
-|Rust|★☆☆☆☆|
+- NHK学生ロボコンやCanSat開発における組み込みシステムの開発（C, C++）
+- 機械学習によるデータ解析（Python）
+- サーバサイド開発（Java）
+- フロントエンド開発（Javascript, React）
 
 # Activities
 ---
@@ -71,6 +70,15 @@ title: About
 |CODE BLUE 2019 学生スタッフ|
 |[CYBERTECH TOKYO 2019 SPEAKER](https://tokyo.cybertechconference.com/yusuke-yamamoto)|
 
+## 2020
+
+|:---|
+|SecHack365 2020 招待修了生|
+
+## 2021
+
+|:---|
+|セキュリティ・ネクストキャンプ全国大会2021 講師|
 
 # Awards History
 ---
