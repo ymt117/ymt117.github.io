@@ -79,6 +79,7 @@ title: About
 
 |:---|
 |セキュリティ・ネクストキャンプ全国大会2021 講師|
+|SecHack365 2021 アシスタント|
 
 # Awards History
 ---
