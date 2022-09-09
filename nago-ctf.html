@@ -9,6 +9,34 @@
       <h1>志摩リン in 志摩リン</h1>
       <img alt="003.png" src="assets/img/posts/003.png">
       <p><a href="assets/img/posts/003.png" download="003.png">DOWNLOAD</a></p>
+      <p>
+        <b>Flag is nago-ctf{</b>
+        <input id="flag" type="text" name="flag" size="40" maxlength="35" placeholder="Please enter flag" />
+        <b>}</b>
+      </p>
+      <button onclick="submit()">SUBMIT</button>
     </div>
+    <script>
+      async function submit() {
+        // Flag is hidden in the image:)
+        const flag = "f958fd45a35278e0f632cfc19f16f2daff8772ede48e8e829607e5e4f7bfeffd";
+        const input = document.getElementById("flag").value;
+        const hashinput = await hash(input);
+        if (hashinput === flag) {
+          alert("Congratulations, you are correct!")
+        } else {
+          alert("Incorrect")
+        }
+      }
+      async function hash(string) {
+        const utf8 = new TextEncoder().encode(string);
+        const hashBuffer = await crypto.subtle.digest('SHA-256', utf8);
+        const hashArray = Array.from(new Uint8Array(hashBuffer));
+        const hashHex = hashArray
+          .map((bytes) => bytes.toString(16).padStart(2, '0'))
+          .join('');
+        return hashHex;
+      }
+    </script>
   </body>
 </html>
